@@ -1,0 +1,16 @@
+:root {
+    /* Cores */
+    --azul-oxford: #252B42;
+
+    --branco: #ffffff;
+
+    --cinza: #4D4D4D;
+    
+    --laranja-pantone: #F79901;
+    --laranja-pantone50: #f1c263;
+
+    --preto: #000000;
+
+    /* Fontes */
+    --roboto: 'Roboto', sans-serif;
+}
