@@ -1,16 +1,13 @@
 :root {
     /* Cores */
-    --azul-oxford: #252B42;
-
+    --azul-bebe: #8EADD5;
     --branco: #ffffff;
-
-    --cinza: #4D4D4D;
-    
-    --laranja-pantone: #F79901;
-    --laranja-pantone50: #f1c263;
-
+    --branco-gelo: #F6F6F6;
+    --branco-fumaça: #F5F5F5;
+    --cinza-claro: #667085;
+    --cinza-escura: #272D38;
     --preto: #000000;
 
     /* Fontes */
-    --roboto: 'Roboto', sans-serif;
+    --inter: 'Inter', sans-serif;
 }
