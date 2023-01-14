@@ -1,10 +1,11 @@
 @import url(_variaveis.css);
-@import url(base.css);
 @import url(../componentes/1-header/1-cabecalho.css);
+@import url(../componentes/1-header/2-chamada.css);
+@import url(../componentes/1-header/3-parcerias.css);
 
 body {
     background: var(--branco-fumaça)!important;
-    color: var(--cinza-escura)!important;
+    color: var(--cinza-escuro)!important;
     font-family: var(--inter)!important;
 }
 

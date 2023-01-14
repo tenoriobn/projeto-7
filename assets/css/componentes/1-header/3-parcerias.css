@@ -1,0 +1,46 @@
+.parcerias {
+    margin-bottom: 5.5rem;
+}
+
+.parcerias__paragrafo {
+    color: var(--cinza-claro);
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: .875rem;
+}
+
+.parcerias__icons {
+    background-color: var(--branco-gelo);
+}
+
+.parcerias__img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 21vw;
+    height: 3.5vh;
+}
+
+.img-spotify {
+    background-image: url(../../../img/icon/logo-spotify.svg);
+}
+
+.img-slack {
+    background-image: url(../../../img/icon/logo-slack.svg);
+}
+
+.img-dropebox {
+    background-image: url(../../../img/icon/logo-dropbox.svg);
+}
+
+.img-zoom {
+    background-image: url(../../../img/icon/logo-zoom.svg);
+    width: 16vw;
+    height: 1.7vh;
+}
+
+@media screen and (min-width: 765px) {
+    .parcerias__icons {
+        width: 75%!important;
+    }
+}

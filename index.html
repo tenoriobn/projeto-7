@@ -4,15 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1983d85050.js" crossorigin="anonymous"></script>
     <title>Digital Agency</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base/base.css">
+    <script src="https://kit.fontawesome.com/1983d85050.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="cabecalho">
-        
+        <nav class="navbar navbar-expand-lg pt-4 pb-4">
+            <div class="container">
+                <h1 class="logotipo m-0 text-capitalize" href="#">Digital Agency</h1>
+                
+                <button class="navbar-toggler border-0 p-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="container offcanvas offcanvas__mod offcanvas-end border-0 w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <header class="offcanvas-header d-flex d-lg-none align-items-center pt-4 pb-4">
+                        <h1 class="m-0 logotipo" href="#">Digital Agency</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </header>
+
+                    <nav class="offcanvas-body p-0">
+                        <ul class="navbar-nav navbar__nav ms-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-center">
+                            <li class="nav-item"><a class="nav-link nav__link" href="#">home</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link" href="#">about</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link" href="#">testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link nav__link" href="#">contact</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </nav>
+
+        <section class="container chamada d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
+            <article class="d-flex flex-column align-items-center align-items-lg-start">
+                <h2 class="chamada__subtitulo mb-4 text-capitalize text-center text-lg-start">Building digital products, brands & experience</h2>
+                <p class="chamada__paragrafo mb-4 text-capitalize text-center text-lg-start">Digital Agency is your online team mangement tool that easy and prompt</p>
+                <button type="button" class="btn chamada__btn mb-5 mb-lg-0 text-center text-uppercase text-white p-0">Contact Us</button>
+            </article>
+
+            <span class="chamada__img img-fluid" alt="Figura Ilustrativa"></span>
+        </section>
+
+        <section class="container parcerias d-flex flex-column justify-content-center align-items-center">
+            <p class="parcerias__paragrafo mb-3 text-center text-capitalize">Trusted by 4,000+ companies</p>
+           
+            <div class="parcerias__icons pt-4 pb-4 ps-3 pe-3 pe-md-0 ps-md-0 rounded-2  w-100">
+                <figure class="m-0 d-flex justify-content-around align-items-center gap-2">
+                    <span class="parcerias__img img-spotify"></span>
+
+                    <span class="parcerias__img img-slack"></span>
+
+                    <span class="parcerias__img img-dropebox"></span>
+
+                    <span class="parcerias__img img-zoom"></span>
+                </figure><!-- Container para controlar size da img's -->
+            </div><!-- container com bg e size do container-->
+        </section>
     </header>
 
     <main class="">
