@@ -2,6 +2,7 @@
 @import url(../componentes/1-header/1-cabecalho.css);
 @import url(../componentes/1-header/2-chamada.css);
 @import url(../componentes/1-header/3-parcerias.css);
+@import url(../componentes/2-main/1-sistema.css);
 
 body {
     background: var(--branco-fumaça)!important;
@@ -11,22 +12,64 @@ body {
 
 .subtitulo {
     font-size: 2rem;
+    font-weight: 700;
     line-height: 2rem;
+
+    max-width: 320px;
 }
 
 .paragrafo {
-    font-size: .875rem;
-    line-height: 1.75rem;
+    font-size: .775rem;
+    line-height: 1.5rem;
+
+    max-width: 320px;
+}
+
+.seta {
+    transform: rotate(90deg);
+}
+
+@media screen and (min-width: 375px) {
+    .subtitulo {
+        max-width: 375px;
+    }
+
+    .paragrafo {
+        font-size: .875rem;
+        line-height: 1.75rem;
+
+        max-width: 375px;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    .sistema {
+        order: 2;
+    }
+
+    .sistema__textos {
+        order: 2;
+    }
+
+    .sistema__img {
+        order: 1;
+    }
+
     .subtitulo {
         font-size: 3rem;
         line-height: 3rem;
+
+        max-width: 435px;
     }
     
     .paragrafo {
         font-size: 1rem;
         line-height: 1.75rem;
+
+        max-width: 375px;
+    }
+
+    .seta {
+        transform: none!important;
     }
 }

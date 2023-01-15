@@ -44,3 +44,9 @@
         width: 75%!important;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .parcerias {
+        margin-bottom: 8.5rem;
+    }
+}
