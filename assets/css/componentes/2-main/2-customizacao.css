@@ -1,14 +1,13 @@
-.sistema {
+.customizacao {
     margin-bottom: 7.5rem;
 }
 
-.sistema__paragrafo {
+.customizacao__paragrafo {
     margin-bottom: 2rem;
 }
 
-
 @media screen and (min-width: 992px) {
-    .sistema {
+    .customizacao {
         margin-bottom: 8.5rem;
     }
 }

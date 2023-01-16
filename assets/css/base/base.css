@@ -3,6 +3,8 @@
 @import url(../componentes/1-header/2-chamada.css);
 @import url(../componentes/1-header/3-parcerias.css);
 @import url(../componentes/2-main/1-sistema.css);
+@import url(../componentes/2-main/2-customizacao.css);
+@import url(../componentes/2-main/3-depoimentos.css);
 
 body {
     background: var(--branco-fumaça)!important;
@@ -66,7 +68,7 @@ body {
         font-size: 1rem;
         line-height: 1.75rem;
 
-        max-width: 375px;
+        max-width: 385px;
     }
 
     .seta {
