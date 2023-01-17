@@ -5,6 +5,7 @@
 @import url(../componentes/2-main/1-sistema.css);
 @import url(../componentes/2-main/2-customizacao.css);
 @import url(../componentes/2-main/3-depoimentos.css);
+@import url(../componentes/2-main/4-novidade.css);
 
 body {
     background: var(--branco-fumaça)!important;

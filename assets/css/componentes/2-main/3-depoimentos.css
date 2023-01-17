@@ -1,3 +1,7 @@
+.depoimentos {
+    margin-bottom: 7.5rem;
+}
+
 .card__mod {
     background-color: var(--branco-gelo);
     border-color: var(--branco-gelo);
@@ -27,6 +31,10 @@
 }
 
 @media screen and (min-width: 992px) {
+    .depoimentos {
+        margin-bottom: 8.5rem;
+    }
+
     .subtitulo__depoimentos {
         max-width: 475px!important;
     
