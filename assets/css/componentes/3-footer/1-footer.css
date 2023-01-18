@@ -1,0 +1,50 @@
+.footer {
+    background-color: var(--branco-gelo);
+
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer__subtitulo {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+
+    margin-bottom: 2.125rem!important;
+}
+
+.footer__paragrafo {
+    font-weight: 300!important;
+    width: 11.8306rem;
+}
+
+.footer__lista_subtitulo {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    margin-top: 4.5rem;
+}
+
+.footer__item_link {
+    color: var(--cinza-escuro)!important;
+    font-weight: 300;
+    line-height: 1rem;
+}
+
+.footer__creditos {
+    font-size: .75rem;
+    font-weight: 300;
+    line-height: .75rem;
+
+    margin-top: 5.75rem;
+}
+
+@media screen and (min-width: 992px) {
+    .footer__subtitulo {
+        margin-bottom: 2rem!important;
+    }
+
+    .footer__lista_subtitulo {
+        margin-top: 0rem;
+    }
+}
