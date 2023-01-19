@@ -12,141 +12,145 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="navbar navbar-expand-lg pt-4 pb-4">
-            <div class="container">
-                <h1 class="logotipo m-0 text-capitalize" href="#">Digital Agency</h1>
-                
-                <button class="navbar-toggler border-0 p-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg pt-4 pb-4">
+                <h1 class="m-0 navbar__logotipo text-capitalize" href="#">Digital Agency</h1>
+                    
+                <button class="border-0 navbar-toggler p-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <i class="fa-solid fa-bars navbar__toggler--icon"></i>
                 </button>
 
-                <div class="container offcanvas offcanvas__mod offcanvas-end border-0 w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <header class="offcanvas-header d-flex d-lg-none align-items-center pt-4 pb-4">
-                        <h1 class="m-0 logotipo" href="#">Digital Agency</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div class="border-0 offcanvas offcanvas--mod offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <header class="align-items-center container d-flex d-lg-none justify-content-between pt-4 pb-4">
+                        <h1 class="m-0 navbar__logotipo text-capitalize" href="#">Digital Agency</h1>
+                    
+                        <button class="border-0 navbar-toggler p-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <i class="fa-solid fa-xmark navbar__toggler--icon"></i>
+                        </button>
                     </header>
 
                     <nav class="offcanvas-body p-0">
-                        <ul class="navbar-nav navbar__nav ms-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-center">
-                            <li class="nav-item"><a class="nav-link nav__link" href="#">home</a></li>
-                            <li class="nav-item"><a class="nav-link nav__link" href="#">about</a></li>
-                            <li class="nav-item"><a class="nav-link nav__link" href="#">testimonials</a></li>
-                            <li class="nav-item"><a class="nav-link nav__link" href="#">contact</a></li>
+                        <ul class="align-items-center d-flex justify-content-center ms-auto mb-2 mb-lg-0 navbar-nav navbar--nav">
+                            <li class="nav-item"><a class="nav-link nav--link" href="#">home</a></li>
+                            <li class="nav-item"><a class="nav-link nav--link" href="#">about</a></li>
+                            <li class="nav-item"><a class="nav-link nav--link" href="#">testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link nav--link" href="#">contact</a></li>
                         </ul>
                     </nav>
-            </div>
-        </nav>
+                </div><!-- Menu mobile-->
+            </nav>
+        </div><!-- Container do menu-->
 
-        <section class="container chamada d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
-            <article class="d-flex flex-column align-items-center align-items-lg-start">
+        <section class="align-items-center container chamada d-flex flex-column flex-lg-row justify-content-lg-between">
+            <article class="align-items-center align-items-lg-start d-flex flex-column">
                 <h2 class="chamada__subtitulo mb-4 text-capitalize text-center text-lg-start">Building digital products, brands & experience</h2>
                 <p class="chamada__paragrafo mb-4 text-capitalize text-center text-lg-start">Digital Agency is your online team mangement tool that easy and prompt</p>
-                <button type="button" class="btn chamada__btn mb-5 mb-lg-0 text-center text-uppercase text-white p-0">Contact Us</button>
+                <button type="button" class="btn btn--mod mb-5 mb-lg-0 p-0 text-center text-uppercase text-white">Contact Us</button>
             </article>
 
             <span class="chamada__img img-fluid" alt="Figura Ilustrativa"></span>
         </section>
 
-        <section class="container parcerias d-flex flex-column justify-content-center align-items-center">
-            <p class="parcerias__paragrafo mb-3 text-center text-capitalize">Trusted by 4,000+ companies</p>
+        <section class="align-items-center container d-flex flex-column justify-content-center parcerias">
+            <p class="mb-3 parcerias__paragrafo text-capitalize text-center">Trusted by 4,000+ companies</p>
            
-            <div class="parcerias__icons pt-4 pb-4 ps-3 pe-3 pe-md-0 ps-md-0 rounded-2  w-100">
-                <figure class="m-0 d-flex justify-content-around align-items-center gap-2">
-                    <span class="parcerias__img img-spotify"></span>
+            <div class="parcerias__icons pt-4 pb-4 ps-3 pe-3 pe-md-0 ps-md-0 rounded-2 w-100">
+                <figure class="align-items-center d-flex gap-2 justify-content-around m-0">
+                    <span class="img-spotify parcerias__img"></span>
 
-                    <span class="parcerias__img img-slack"></span>
+                    <span class="img-slack parcerias__img"></span>
 
-                    <span class="parcerias__img img-dropebox"></span>
+                    <span class="img-dropebox parcerias__img"></span>
 
-                    <span class="parcerias__img img-zoom"></span>
+                    <span class="img-zoom parcerias__img"></span>
                 </figure><!-- Container para controlar size da img's -->
             </div><!-- container com bg e size do container-->
         </section>
     </header>
 
     <main class="container">
-        <section class="sistema d-flex flex-column flex-lg-row justify-content-between align-items-center">
-            <article class="sistema__textos d-flex flex-column align-items-center align-items-lg-start mb-4 mb-lg-0">
-                <h2 class="subtitulo mb-4 text-capitalize text-center text-lg-start">Branding & Design system</h2>
+        <section class="align-items-center d-flex flex-column flex-lg-row justify-content-between sistema">
+            <article class="align-items-center align-items-lg-start d-flex flex-column mb-4 mb-lg-0 sistema__textos">
+                <h2 class="mb-4 subtitulo text-capitalize text-center text-lg-start">Branding & Design system</h2>
                 <p class="paragrafo sistema__paragrafo text-capitalize text-center text-lg-start">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups</p>
-                <img src="assets/img/icon/seta.svg" alt="Icone da seta" class="seta ">
+                <img src="assets/img/icon/seta.svg" alt="Icone da seta" class="seta">
             </article>
             
-            <img src="assets/img/icon/img-branding.svg" alt="" class="sistema__img img-fluid">
+            <img src="assets/img/icon/img-branding.svg" alt="Imagem ilustrativa" class="img-fluid sistema__img">
         </section>
 
         <section class="customizacao d-flex flex-column flex-lg-row justify-content-between align-items-center">
             <article class="customizacao__textos d-flex flex-column align-items-center align-items-lg-start mb-4 mb-lg-0">
                 <h2 class="subtitulo mb-4 text-capitalize text-center text-lg-start">Custome & Plugin Development</h2>
-                <p class="paragrafo customizacao__paragrafo text-capitalize text-center text-lg-start">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups</p>
+                <p class="customizacao--paragrafo paragrafo text-capitalize text-center text-lg-start">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups</p>
                 <img src="assets/img/icon/seta.svg" alt="Icone da seta" class="seta">
             </article>
             
-            <img src="assets/img/icon/img-custome.svg" alt="" class="customizacao__img img-fluid">
+            <img src="assets/img/icon/img-custome.svg" alt="Imagem ilustrativa" class="customizacao__img img-fluid">
         </section>
 
         <section class="depoimentos">
-            <article class="d-flex flex-column align-items-center">
+            <article class="align-items-center d-flex flex-column">
                 <p class="paragrafo text-capitalize text-center">Testimonials</p>
-                <h2 class="subtitulo subtitulo__depoimentos mb-4 text-uppercase text-center">Read What Other have to Say</h2>
+                <h2 class="depoimentos--subtitulo mb-4 subtitulo text-center text-uppercase">Read What Other have to Say</h2>
             </article>
 
             <article class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-5 mb-md-0">
-                    <figure class="card card__mod h-100 align-items-center mb-0 rounded-4">
+                    <figure class="align-items-center card depoimentos--card h-100 mb-0 rounded-4">
                         <img src="assets/img/avatar/Andrew.svg" class="card-img-top w-25" alt="Avatar de perfil">
                         
-                        <figcaption class="card-body card__body--mod">
-                            <h5 class="card__subtitulo text-capitalize text-center">Andrew Rathore</h5>
-                            <p class="card__paragrafo m-0 text-capitalize text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                        <figcaption class="card-body depoimentos__card--body">
+                            <h5 class="depoimentos__card_subtitulo text-capitalize text-center">Andrew Rathore</h5>
+                            <p class="depoimentos__card_paragrafo m-0 text-capitalize text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
                         </figcaption>
                     </figure>
                 </div><!-- Container Grid -->
 
                 <div class="col mb-5 mb-md-0">
-                    <figure class="card card__mod h-100 align-items-center mb-0 rounded-4">
+                    <figure class="align-items-center card depoimentos--card h-100 mb-0 rounded-4">
                         <img src="assets/img/avatar/Vera.svg" class="card-img-top w-25" alt="Avatar de perfil">
                         
-                        <figcaption class="card-body card__body--mod">
-                            <h5 class="card__subtitulo text-capitalize text-center">Vera Duncan</h5>
-                            <p class="card__paragrafo m-0 text-capitalize text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                        <figcaption class="card-body depoimentos__card--body">
+                            <h5 class="depoimentos__card_subtitulo text-capitalize text-center">Vera Duncan</h5>
+                            <p class="depoimentos__card_paragrafo m-0 text-capitalize text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
                         </figcaption>
                     </figure>
                 </div><!-- Container Grid -->
 
                 <div class="col">
-                    <figure class="card card__mod h-100 align-items-center mb-0 rounded-4">
+                    <figure class="align-items-center card depoimentos--card h-100 mb-0 rounded-4">
                         <img src="assets/img/avatar/Mark.svg" class="card-img-top w-25" alt="Avatar de perfil">
                         
-                        <figcaption class="card-body card__body--mod">
-                            <h5 class="card__subtitulo text-capitalize text-center">Mark Smith</h5>
-                            <p class="card__paragrafo m-0 text-capitalize text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                        <figcaption class="card-body depoimentos__card--body">
+                            <h5 class="depoimentos__card_subtitulo text-capitalize text-center">Mark Smith</h5>
+                            <p class="depoimentos__card_paragrafo m-0 text-capitalize text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
                         </figcaption>
                     </figure>
                 </div><!-- Container Grid -->
             </article>
         </section>
 
-        <section class="novidade d-flex flex-column flex-lg-row align-items-center justify-content-around rounded-5">
+        <section class="align-items-center d-flex flex-column flex-lg-row justify-content-around novidade rounded-5">
             <img src="assets/img/icon/img-be.svg" class="card-img-top d-none d-lg-flex w-auto" alt="Imagem ilustrativa">
 
-            <article class="d-flex flex-column align-items-center">
-                <h2 class="subtitulo novidade__subtitulo text-center">Be a part of the next big thing</h2>
-                <p class="paragrafo novidade__paragrafo mb-5 text-center">We work with Brans, Startups, to SMEs. Colaborate for more impact and growt</p>
-                <button type="button" class="btn chamada__btn mb-5 mb-lg-0 text-center text-uppercase text-white p-0">Contact Us</button>
+            <article class="align-items-center d-flex flex-column">
+                <h2 class="novidade--subtitulo subtitulo text-center">Be a part of the next big thing</h2>
+                <p class="mb-5 novidade--paragrafo paragrafo text-center">We work with Brans, Startups, to SMEs. Colaborate for more impact and growt</p>
+                <button type="button" class="btn btn--mod mb-5 mb-lg-0 text-center text-uppercase text-white p-0">Contact Us</button>
             </article>
         </section>
         
     </main>
 
     <footer class="footer">
-        <section class="container container--footer d-lg-flex align-items-lg-start justify-content-lg-between">
-            <article class="footer__textos d-flex flex-column align-items-center align-items-lg-start">
-                <h2 class="footer__subtitulo text-center text-lg-start text-capitalize">Digital Agency</h2>
-                <p class="footer__paragrafo mb-0 text-center text-lg-start text-capitalize">Building digital products, brands & experience</p>
+        <section class="align-items-lg-start container d-lg-flex justify-content-lg-between">
+            <article class="align-items-center align-items-lg-start d-flex flex-column footer__textos">
+                <h2 class="footer__subtitulo text-capitalize text-center text-lg-start">Digital Agency</h2>
+                <p class="footer__paragrafo mb-0 text-capitalize text-center text-lg-start">Building digital products, brands & experience</p>
             </article>
             
-            <ul class="footer__lista d-flex flex-column gap-4 list-unstyled mb-0 text-center text-lg-start">
+            <ul class="d-flex flex-column footer__lista gap-4 list-unstyled mb-0 text-center text-lg-start">
                 <h5 class="footer__lista_subtitulo mb-2">Resources</h5>
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">Guides</a></li>
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">Blog</a></li>
@@ -154,7 +158,7 @@
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">Glossery</a></li>
             </ul>
 
-            <ul class="footer__lista d-flex flex-column gap-4 list-unstyled mb-0 text-center text-lg-start">
+            <ul class="d-flex flex-column footer__lista gap-4 list-unstyled mb-0 text-center text-lg-start">
                 <h5 class="footer__lista_subtitulo mb-2">Company</h5>
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">About Us</a></li>
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">Careers</a></li>
@@ -162,7 +166,7 @@
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">Contact Us</a></li>
             </ul>
 
-            <ul class="footer__lista d-flex flex-column gap-4 list-unstyled mb-0 text-center text-lg-start">
+            <ul class="d-flex flex-column footer__lista gap-4 list-unstyled mb-0 text-center text-lg-start">
                 <h5 class="footer__lista_subtitulo mb-2">Social Media</h5>
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">LinkedIn</a></li>
                 <li class="footer__lista_item"><a href="#" class="footer__item_link text-capitalize text-decoration-none">Facebook</a></li>
@@ -181,3 +185,14 @@
 
 </body>
 </html>
+
+
+<!-- 
+    Alinhar os items do menu mobile no meio da página.
+    Trocar a tag das imagens que estão em span para img, pois são imagens q fazem parte do conteúdo.
+    Adicionar estilziação para versão TABLET.
+
+    Criar efeito para os botões e introduzir esse efeito na logo tbm(se possível/ adicionar cursor).
+
+    Por fim, adicionar bolinhas de fundo azul no background, como está no figma.
+ -->

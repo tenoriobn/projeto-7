@@ -7,18 +7,18 @@
     margin-bottom: 7.5rem;
 }
 
-.novidade__subtitulo {
+.novidade--subtitulo {
     margin-bottom: 2rem;
     max-width: 309px!important;
 }
 
-.novidade__paragrafo {
+.novidade--paragrafo {
     line-height: 1.75rem;
     max-width: 280px!important;
 }
 
 @media screen and (min-width: 375px) {
-    .novidade__paragrafo {
+    .novidade--paragrafo {
         font-size: 1rem!important;
         max-width: 309px!important;
     }
@@ -33,13 +33,13 @@
         margin-bottom: 8.5rem;
     }
 
-    .novidade__subtitulo {
+    .novidade--subtitulo {
         max-width: 370px!important;
 
         margin-bottom: 1rem!important;
     }
 
-    .novidade__paragrafo {
+    .novidade--paragrafo {
         margin-bottom: 2rem!important;
     }
 }

@@ -16,21 +16,6 @@
     max-width: 296px;
 }
 
-.chamada__btn {
-    background: var(--azul-bebe)!important;
-
-    font-size: .875rem;
-    font-weight: 600;
-    line-height: 1.75rem;
-
-    width: 8.75rem;
-    height: 2.1875rem;
-}
-
-.chamada__btn:hover {
-    background: var(--cinza-claro)!important;
-}
-
 .chamada__img {
     background-image: url(../../../img/icon/img-chamada.svg);
     background-position: center center;

@@ -29,6 +29,21 @@ body {
     max-width: 320px;
 }
 
+.btn--mod {
+    background: var(--azul-bebe)!important;
+
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+
+    width: 8.75rem;
+    height: 2.1875rem;
+}
+
+.btn--mod:hover {
+    background: var(--cinza-claro)!important;
+}
+
 .seta {
     transform: rotate(90deg);
 }

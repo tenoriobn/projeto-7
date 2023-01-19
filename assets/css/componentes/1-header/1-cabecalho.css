@@ -1,25 +1,32 @@
-.logotipo {
+.navbar__logotipo {
     font-size: .875rem;
     font-weight: 700;
     line-height: 1.0625rem;
+
+    cursor: pointer;
 }
 
-.offcanvas__mod {
+.navbar__toggler--icon {
+    color: var(--cinza-escuro)!important;
+    font-size: 1rem;
+}
+
+.offcanvas--mod {
     transition: .5s;
 }
 
-.navbar__nav {
+.navbar--nav {
     gap: 2.25rem;
 }
 
-.nav__link {
+.nav--link {
     color: var(--cinza-escuro)!important;
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
 
 @media screen and (min-width: 992px) {
-    .logotipo {
+    .navbar__logotipo {
         font-size: 1.25rem;
         line-height: 1.5125rem;
 

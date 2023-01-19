@@ -2,19 +2,19 @@
     margin-bottom: 7.5rem;
 }
 
-.card__mod {
+.depoimentos--card {
     background-color: var(--branco-gelo);
     border-color: var(--branco-gelo);
 
     padding-top: 2rem;
 }
 
-.card__body--mod {
+.depoimentos__card--body {
     padding-top: .5rem!important;
     padding-bottom: 2rem!important;
 }
 
-.card__subtitulo {
+.depoimentos__card_subtitulo {
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -22,7 +22,7 @@
     margin-bottom: 1.6875rem!important;
 }
 
-.card__paragrafo {
+.depoimentos__card_paragrafo {
     font-size: .875rem;
     font-weight: 300;
     line-height: 1.1375rem;
@@ -35,7 +35,7 @@
         margin-bottom: 8.5rem;
     }
 
-    .subtitulo__depoimentos {
+    .depoimentos--subtitulo {
         max-width: 475px!important;
     
         margin-bottom: 2.4156rem!important;
