@@ -61,6 +61,23 @@ body {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .subtitulo {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2rem;
+    
+        max-width: 320px;
+    }
+
+    .paragrafo {
+        font-size: .875rem;
+        line-height: 1.75rem;
+
+        max-width: 375px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .sistema {
         order: 2;
