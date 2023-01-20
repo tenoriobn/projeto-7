@@ -63,18 +63,16 @@ body {
 
 @media screen and (min-width: 768px) {
     .subtitulo {
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 2rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
     
-        max-width: 320px;
+        max-width: 360px;
     }
 
     .paragrafo {
-        font-size: .875rem;
-        line-height: 1.75rem;
+        font-size: 1rem;
 
-        max-width: 375px;
+        max-width: 25rem;
     }
 }
 
@@ -99,9 +97,6 @@ body {
     }
     
     .paragrafo {
-        font-size: 1rem;
-        line-height: 1.75rem;
-
         max-width: 385px;
     }
 

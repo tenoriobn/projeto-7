@@ -30,6 +30,12 @@
     max-width: 281px;
 }
 
+@media screen and (min-width: 765px) {
+    .depoimentos--subtitulo {
+        max-width: 390px!important;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .depoimentos {
         margin-bottom: 8.5rem;
