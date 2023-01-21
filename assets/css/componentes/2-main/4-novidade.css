@@ -1,7 +1,6 @@
 .novidade {
     background-color: var(--branco-gelo);
     border-color: var(--branco-gelo);
-
     padding-top: 3.5rem;
 
     margin-bottom: 7.5rem;
@@ -25,10 +24,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .novidade {
-        background-color: var(--branco-gelo);
-        border-color: var(--branco-gelo);
-    
+    .novidade {   
         padding-top: 0rem;
         margin-bottom: 8.5rem;
     }

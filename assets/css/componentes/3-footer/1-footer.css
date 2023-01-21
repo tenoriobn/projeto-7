@@ -5,12 +5,19 @@
     padding-bottom: 1.5rem;
 }
 
-.footer__subtitulo {
+.footer__logotipo {
+    cursor: pointer;
+
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.75rem;
 
     margin-bottom: 2.125rem!important;
+}
+
+.footer__logotipo:hover {
+    color: var(--azul-bebe)!important;
+    transition: all .5s ease;
 }
 
 .footer__paragrafo {
@@ -29,6 +36,31 @@
     color: var(--cinza-escuro)!important;
     font-weight: 300;
     line-height: 1rem;
+
+    transition: all 1s ease;
+    position: relative;
+}
+
+.footer__item_link:hover {
+    color: var(--azul-bebe)!important;
+}
+
+.footer__item_link::before {
+    background-color: var(--azul-bebe);
+    content: ' ';
+
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    left: 0;
+    width: 0px;
+
+    transition: all 1s ease;
+    z-index: 5;
+}
+
+.footer__item_link:hover::before {
+    width: 100%;
 }
 
 .footer__creditos {
@@ -40,7 +72,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .footer__subtitulo {
+    .footer__logotipo {
         margin-bottom: 2rem!important;
     }
 

@@ -30,19 +30,47 @@ body {
 }
 
 .btn--mod {
-    background: var(--azul-bebe)!important;
+    border: 1px solid var(--azul-bebe);
+    border-radius: .5rem;
+    color: var(--azul-bebe)!important;
 
     font-size: .875rem;
     font-weight: 600;
     line-height: 1.75rem;
 
-    width: 8.75rem;
     height: 2.1875rem;
+    width: 8.75rem;
+
+    position: relative;
+    transition: .5s;
 }
 
 .btn--mod:hover {
-    background: var(--cinza-claro)!important;
+    color: var(--branco)!important;
+    z-index: 1;
 }
+
+.btn--mod::before {
+    background-color: var(--azul-bebe)!important;
+    border-radius: .5rem;
+    
+    content: ' ';
+
+    position: absolute;
+    bottom: 0;
+    height: 2.0875rem;
+    left: 0;
+    width: 0px;
+
+    transition: 1s;
+
+    z-index: -1;
+}
+
+.btn--mod:hover::before {
+    width: 100%;
+}
+
 
 .seta {
     transform: rotate(90deg);

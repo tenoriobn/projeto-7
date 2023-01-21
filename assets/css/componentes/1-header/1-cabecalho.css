@@ -6,6 +6,11 @@
     cursor: pointer;
 }
 
+.navbar__logotipo:hover {
+    color: var(--azul-bebe)!important;
+    transition: all .5s ease;
+}
+
 .navbar__toggler--icon {
     color: var(--cinza-escuro)!important;
     font-size: 1rem;
@@ -23,6 +28,31 @@
     color: var(--cinza-escuro)!important;
     font-size: 1.125rem;
     line-height: 1.75rem;
+
+    transition: all 1s ease;
+    position: relative;
+}
+
+.nav--link:hover {
+    color: var(--azul-bebe)!important;
+    transition: all .5s ease;
+}
+
+.nav--link::before {
+    background-color: var(--azul-bebe);
+    content: ' ';
+
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    left: 0;
+    width: 0px;
+
+    transition: all 1s ease;
+}
+
+.nav--link:hover::before {
+    width: 100%;
 }
 
 @media screen and (min-width: 992px) {
