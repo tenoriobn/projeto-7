@@ -11,7 +11,9 @@
     <script src="https://kit.fontawesome.com/1983d85050.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho position-relative">
+        <div class="cabecalho__bg position-absolute top-0 start-0 translate-middle"></div>
+
         <div class="container">
             <nav class="navbar navbar-expand-lg pt-4 pb-4">
                 <h1 class="m-0 navbar__logotipo text-capitalize" href="#">Digital Agency</h1>
@@ -68,8 +70,8 @@
         </section>
     </header>
 
-    <main class="container">
-        <section class="align-items-center d-flex flex-column flex-lg-row justify-content-between sistema">
+    <main class="position-relative">
+        <section class="align-items-center container d-flex flex-column flex-lg-row justify-content-between sistema">
             <article class="align-items-center align-items-lg-start d-flex flex-column mb-4 mb-lg-0 sistema__textos">
                 <h2 class="mb-4 subtitulo text-capitalize text-center text-lg-start">Branding & Design system</h2>
                 <p class="paragrafo sistema__paragrafo text-capitalize text-center text-lg-start">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups</p>
@@ -79,8 +81,8 @@
             <img src="assets/img/icon/img-branding.svg" alt="Imagem ilustrativa" class="img-fluid sistema__img">
         </section>
 
-        <section class="customizacao d-flex flex-column flex-lg-row justify-content-between align-items-center">
-            <article class="customizacao__textos d-flex flex-column align-items-center align-items-lg-start mb-4 mb-lg-0">
+        <section class="container customizacao d-flex flex-column flex-lg-row justify-content-between align-items-center position-relative">           
+            <article class="customizacao__textos d-flex flex-column align-items-center align-items-lg-start mb-4 mb-lg-0 position-relative">
                 <h2 class="subtitulo mb-4 text-capitalize text-center text-lg-start">Custome & Plugin Development</h2>
                 <p class="customizacao--paragrafo paragrafo text-capitalize text-center text-lg-start">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups</p>
                 <img src="assets/img/icon/seta.svg" alt="Icone da seta" class="seta">
@@ -89,7 +91,9 @@
             <img src="assets/img/icon/img-custome.svg" alt="Imagem ilustrativa" class="customizacao__img img-fluid">
         </section>
 
-        <section class="depoimentos">
+        <div class="customizacao__bg position-absolute top-0 end-0"></div>
+
+        <section class="container depoimentos">
             <article class="align-items-center d-flex flex-column">
                 <p class="paragrafo text-capitalize text-center">Testimonials</p>
                 <h2 class="depoimentos--subtitulo mb-3 subtitulo text-center text-uppercase">Read What Other have to Say</h2>
@@ -131,7 +135,7 @@
             </article>
         </section>
 
-        <section class="align-items-center d-flex flex-column flex-lg-row justify-content-around novidade rounded-5">
+        <section class="align-items-center container d-flex flex-column flex-lg-row justify-content-around novidade rounded-5">
             <img src="assets/img/icon/img-be.svg" class="img-fluid d-lg-flex d-none" alt="Imagem ilustrativa">
 
             <article class="align-items-center d-flex flex-column">

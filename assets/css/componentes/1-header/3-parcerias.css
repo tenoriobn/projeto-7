@@ -14,8 +14,10 @@
 }
 
 .parcerias__logotipo {
-    width: 21vw;
     height: 3.5vh;
+    width: 21vw;
+
+    cursor: pointer;
 }
 
 .img-zoom {

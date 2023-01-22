@@ -2,12 +2,41 @@
     margin-bottom: 7.5rem;
 }
 
+.customizacao__bg {
+    width: 60%;
+    height: 13%;
+    top: 18%!important;
+    
+    background: rgba(142, 173, 213, 0.3);
+
+    filter: blur(153px);
+
+    z-index: -1;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .customizacao--paragrafo {
     margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .customizacao__bg {
+        width: 50%;
+        height: 19%;
+        top: 22%!important;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .customizacao {
         margin-bottom: 8.5rem;
+    }
+
+    .customizacao__bg {
+        width: 40%;
+        height: 23%;
+        top: 11%!important;
     }
 }

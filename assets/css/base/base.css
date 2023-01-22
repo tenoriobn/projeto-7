@@ -12,6 +12,8 @@ body {
     background: var(--branco-fumaça)!important;
     color: var(--cinza-escuro)!important;
     font-family: var(--inter)!important;
+
+    overflow-x: hidden!important;
 }
 
 .subtitulo {

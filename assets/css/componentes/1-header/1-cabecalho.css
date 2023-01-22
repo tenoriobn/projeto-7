@@ -1,3 +1,13 @@
+.cabecalho__bg {
+    background: rgba(142, 173, 213, 0.24);
+    filter: blur(153px);
+
+    left: calc(50% - 449px/2 - 190.5px);
+    height: 44%;
+    width: 124%;
+    z-index: -1;
+}
+
 .navbar__logotipo {
     font-size: .875rem;
     font-weight: 700;
@@ -55,7 +65,19 @@
     width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+    .cabecalho__bg {  
+        height: 41%;
+        width: 115%;
+    }
+}
+
 @media screen and (min-width: 992px) {
+    .cabecalho__bg {  
+        height: 80%;
+        width: 67%;
+    }
+
     .navbar__logotipo {
         font-size: 1.25rem;
         line-height: 1.5125rem;
